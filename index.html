@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Manrope:wght@600&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <div class="container">
+                <form class="login__form" action="#">
+                    <div class="login">
+                        <div class="login__logo"></div>
+                        <h1 class="login__title">Изменение пароля</h1>
+                        <label class="login__label">
+                            <input class="login__input" type="text" placeholder="Email / Логин">
+                        </label>
+                        <label class="login__label mt47">
+                            <input class="login__input js-control-word" type="text" placeholder="Контрольная строка">
+                        </label>
+                        <label class="login__label mt47">
+                            <input class="login__input js-password-up" type="password" placeholder="Новый пароль">
+                            <span class="login__password-show"></span>
+                        </label>
+                        <label class="login__label mt47">
+                            <input class="login__input js-password-down" type="password" placeholder="Подтверждение пароля">
+                        </label>
+                        <span class="login__field mt30 mb30">Обязательные поля</span>
+                        <button class="login__btn mb23 js-change-password" type="submit" value="Изменить пароль">Изменить пароль</button>
+                        <div class="login__block-btn">
+                            <button class="login__block-btn-registration" type="button" value="Зарегистироваться">Зарегистироваться</button>
+                            <button class="login__block-btn-login" type="button" value="Войти">Войти</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        <script src="/main.js"></script>
+    </body>
+</html>
