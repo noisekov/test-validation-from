@@ -37,7 +37,7 @@ html, body {
 }
 
 .login__logo {
-    background-image: url(/assets/images/icon/logo.png);
+    background-image: url(./assets/images/icon/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -85,7 +85,7 @@ html, body {
     right: 7px;
     width: 24px;
     height: 24px;
-    background-image: url(/assets/images/icon/eye.png);
+    background-image: url(./assets/images/icon/eye.png);
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
@@ -146,7 +146,7 @@ html, body {
     right: 45px;
     width: 31px;
     height: 10px;
-    background-image: url(/assets/images/icon/arrow.svg);
+    background-image: url(./assets/images/icon/arrow.svg);
     background-repeat: no-repeat;
     
 }
