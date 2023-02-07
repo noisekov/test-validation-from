@@ -9,6 +9,8 @@ const allLabel = document.querySelectorAll('.login__label');
 
 passwordShow.addEventListener('mousedown', showPassword);
 passwordShow.addEventListener('mouseup', hiddenPassword);
+passwordShow.addEventListener('touchstart', showPassword);
+passwordShow.addEventListener('touchend', hiddenPassword);
 
 function showPassword () {
     passwordUp.setAttribute('type', 'text');
